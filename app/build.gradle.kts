@@ -18,9 +18,11 @@ android {
     }
 
     buildTypes {
-        buildFeatures{
+
+        buildFeatures {
             viewBinding = true
         }
+
         release {
             isMinifyEnabled = false
             proguardFiles(
